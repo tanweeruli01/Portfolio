@@ -164,6 +164,7 @@ nav ul li a:hover::after{
     /*width: 100%;*/
     border-radius: 10px;
     display: block;
+    transition: transform 0.5s;
 }
 
 #btn{
@@ -171,9 +172,49 @@ nav ul li a:hover::after{
     background-color: darkgray;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
     transition: background-color 1s;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 35px;
+    background: gray;
+    border-radius: 50%;
+    text-align: center;
 }
 
 #btn:hover{
     background-color: white;
     color: black;
+}
+
+.layer{
+    width: 336px; /*Change when i add more work*/
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6), gray);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+
+.layer h4{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.work:hover img{
+    transform: scale(1.1);
+}
+
+.work:hover .layer{
+    height: 100%;
 }
