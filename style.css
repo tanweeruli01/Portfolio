@@ -269,6 +269,7 @@ nav ul li a:hover::after{
     text-decoration: none;
     color: white;
     transition: transform 0.5s, background 0.5s;
+    background-color: darkgray;
 }
 
 .btn:hover{
