@@ -377,4 +377,35 @@ nav .fa-solid{
     #contact .container{
         display: block;
     }
+    #header{
+        height: 22vh;
+    }
+}
+
+@media only screen and (max-width: 358px){
+    h1{
+        font-size: 36px;
+    }
+}
+
+@media only screen and (max-width: 280px){
+    h1{
+        font-size: 23px;
+    }
+    .headerText{
+        margin-top: -0.5px;
+        font-size: 13px;
+    }
+    .work img{
+        width: 250px;
+    }
+    .layer{
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 324px){
+    h1{
+        font-size: 34px;
+    }
 }
