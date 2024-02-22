@@ -312,15 +312,100 @@ form .btn{
 }
 
 /* ----------css for small screen--------- */
-/* nav .fas{
+nav .fa-solid{
     display: none;
-} */
+}
 @media only screen and (max-width: 600px){
     .headerText{
-        margin-top: -10px;
+        margin-top: -0.5px;
         font-size: 16px;
     }
     .headerText h3{
         font-size: 15px;
+    }
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        background: gray;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 30px;
+        height: 90px;
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    nav ul .fa-solid.fa-dove{
+        position: absolute;
+        top: 1px;
+        left: 113px;
+        cursor: pointer;
+    }
+    #logo{
+        width: 350px;
+    }
+    .subTitle{
+        font-size: 40px;
+    }
+    .aboutCol1, .aboutCol2{
+        flex-basis: 100%;
+    }
+    .aboutCol1{
+        margin-bottom: 30px;
+    }
+    .aboutCol2{
+        font-size: 14px;
+    }
+    .tab-links{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    #contact .container{
+        display: block;
+    }
+    #header{
+        height: 22vh;
+    }
+}
+
+@media only screen and (max-width: 358px){
+    h1{
+        font-size: 36px;
+    }
+}
+
+@media only screen and (max-width: 280px){
+    h1{
+        font-size: 23px;
+    }
+    .headerText{
+        margin-top: -0.5px;
+        font-size: 13px;
+    }
+    .work img{
+        width: 250px;
+    }
+    .layer{
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 324px){
+    h1{
+        font-size: 34px;
     }
 }
