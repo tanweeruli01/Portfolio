@@ -211,9 +211,9 @@ nav ul li a:hover::after{
     margin-bottom: 20px;
 }
 
-.work:hover img{
+/* .work:hover img{
     transform: scale(1.1);
-}
+} */        /*----un-comment when added more work*/
 
 .work:hover .layer{
     height: 100%;
