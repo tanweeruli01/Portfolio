@@ -314,10 +314,10 @@ form .btn{
 /* ----------css for small screen--------- */
 @media only screen and (max-width: 600px){
     .headerText{
-        margin-top: 100%;
+        margin-top: -10px;
         font-size: 16px;
     }
     .headerText h3{
-        font-size: 30px;
+        font-size: 15px;
     }
 }
