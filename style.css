@@ -323,4 +323,36 @@ nav .fa-solid{
     .headerText h3{
         font-size: 15px;
     }
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        background: gray;
+        position: fixed;
+        top: 0;
+        right: -00px;
+        width: 300px;
+        height: 100vh;
+        padding-top: 50px;
+        text-align: center;
+        z-index: 2;
+    }
+    nav ul li{
+        display: block;
+        margin: 30px;
+        height: 100px;
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    nav ul .fa-solid.fa-dove{
+        position: absolute;
+        top: 1px;
+        left: 113px;
+        cursor: pointer;
+    }
 }
