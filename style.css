@@ -317,7 +317,7 @@ nav .fa-solid{
 }
 @media only screen and (max-width: 600px){
     .headerText{
-        margin-top: -10px;
+        margin-top: -0.5px;
         font-size: 16px;
     }
     .headerText h3{
@@ -353,5 +353,8 @@ nav .fa-solid{
         top: 1px;
         left: 113px;
         cursor: pointer;
+    }
+    #logo{
+        width: 350px;
     }
 }
