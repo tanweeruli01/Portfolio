@@ -220,7 +220,7 @@ nav ul li a:hover::after{
 }
 
 /* ------------contact---------- */
-.contact{
+#contact .container{
     display: flex;
 }
 
