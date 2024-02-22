@@ -358,4 +358,20 @@ nav .fa-solid{
     #logo{
         width: 350px;
     }
+    .subTitle{
+        font-size: 40px;
+    }
+    .aboutCol1, .aboutCol2{
+        flex-basis: 100%;
+    }
+    .aboutCol1{
+        margin-bottom: 30px;
+    }
+    .aboutCol2{
+        font-size: 14px;
+    }
+    .tab-links{
+        font-size: 16px;
+        margin-right: 20px;
+    }
 }
