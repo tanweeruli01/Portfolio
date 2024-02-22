@@ -312,9 +312,9 @@ form .btn{
 }
 
 /* ----------css for small screen--------- */
-/* nav .fas{
+nav .fa-solid{
     display: none;
-} */
+}
 @media only screen and (max-width: 600px){
     .headerText{
         margin-top: -10px;
