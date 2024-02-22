@@ -306,3 +306,7 @@ form .btn{
     background: darkgray;
     font-weight: 300;
 }
+
+.copyright i{
+    color: black;
+}
