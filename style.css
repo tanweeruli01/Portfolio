@@ -310,3 +310,14 @@ form .btn{
 .copyright i{
     color: black;
 }
+
+/* ----------css for small screen--------- */
+@media only screen and (max-width: 600px){
+    .headerText{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+    .headerText h3{
+        font-size: 30px;
+    }
+}
