@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4f0834584f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div id="headNav">
+                <nav>
+                    <h1 id="logo">Tanweerul Islam's Portfolio</h1>
+                    <ul>
+                        <li><a href="https://tanweeruli01.github.io/Floppy-Burd/" target="_blank">Floppy Burd <i class="fa-solid fa-dove"></i></a></li>
+                        <li><a href="https://github.com/tanweeruli01" target="_blank">Github Page <i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/tanweeruli01/" target="_blank">LinkedIn <i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="headerText">
+                <p>Aspiring Software Developer</p>
+                <h3>Hello there! Welcome to my Portfolio Website.<br> I am excited for you to be here.</h3>
+            </div>
+        </div>
+    </div>
+    <!-- --------Game-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutCol1">
+                    <img src="/Portfolio2/Media/15e20fd7-3335-489e-860c-91bfaf5ff1e5.JPG" alt="">
+                </div>
+                <div class="aboutCol2">
+                    <h3 class="subTitle">About Me</h3>
+                    <p>I am currently focusing on becoming a junior software developer. 
+                        I have various background knowledge for IT such as Microsoft Word, Excel, PowerPoint, and VSCode as I have always been around these different programs to deal with many tasks given to me. 
+                        I love to create programs and games as I have always had a passion to start from something small and build up on that idea to create more that could not only benefit me but for my surroundings, and other people too. Being around technology has only made me more curious as to how it works and how it could become better. I have just finished undertaking a government funded course in software development, where I have learnt how to create websites, games, and more using the skills stated below. 
+                        My hope for the future is to keep learning more, as there is more to learn each day, and to gain more experiences and use these experiences to expand my connections, and possibly gain new skills.  I wish to become a senior software developer using such skills and experience. 
+                        </p>
+                    <div class="tabTitles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiences')">Experiences</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Python</span><br>Creating commands, being able to input data,
+                            linking databases and MongoDB to execute CRUD functions and more, creating looped queries etc.</li>
+                            <li><span>MySQL</span><br>Creating tables, inputting data, executing CRUD functions.</li>
+                            <li><span>MongoDB</span><br>Creating tables, inputting data, executing CRUD functions and more.</li>
+                            <li><span>HTML5</span><br>Creating layouts of web pages, inputting data etc.</li>
+                            <li><span>CSS</span><br>Designing web pages and developing them further.</li>
+                            <li><span>JavaScript</span><br>Creating games, web functions etc.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiences">
+                        <ul> 
+                            <li><span>11/23 - 02/24</span><br>Software Development Bootcamp at JustIT</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------portfolio------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h3 class="subTitle">My Work</h3>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/Portfolio2/Media/Screenshot 2024-02-18 at 23.58.44.png" alt="">
+                    <div class="layer">
+                        <h4>Floppy Burd <i class="fa-solid fa-dove"></i></h4>
+                        <p>This is my take on creating a JavaScript-heavy website, re-creating a classic 
+                            game that turned millions of heads, Flappy Bird. 
+                        </p>
+                        <a href="https://tanweeruli01.github.io/Floppy-Burd/" target="_blank">
+                            <button id="btn">Click HERE To Play! <i class="fa-solid fa-link"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
