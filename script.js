@@ -12,3 +12,24 @@ function opentab(tabname){
     document.getElementById(tabname).classList.add("active-tab"); 
 }
 
+var sideMenu = document.getElementById("sideMenu")
+
+function openMenu(){
+    sideMenu.style.right = "0"; //this will open the menu bar
+}
+
+function closeMenu(){
+    sideMenu.style.right = "-200px"; //this will close the menu bar
+}
+
+// google sheet
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwqgaG0LOiWPTuYkQm-3BtnkJv1EtmvfHQ0dxJ2Y794KRzi5JvhC6yljL0VP7-utFy8/exec'
+const form = document.forms['submit-to-google-sheet']
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => console.log('Success!', response))
+    .catch(error => console.error('Error!', error.message))
+})
+
