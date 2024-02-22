@@ -331,17 +331,16 @@ nav .fa-solid{
         background: gray;
         position: fixed;
         top: 0;
-        right: -00px;
-        width: 300px;
+        right: -200px;
+        width: 200px;
         height: 100vh;
         padding-top: 50px;
-        text-align: center;
         z-index: 2;
     }
     nav ul li{
         display: block;
         margin: 30px;
-        height: 100px;
+        height: 90px;
     }
     nav ul .fa-solid{
         position: absolute;
