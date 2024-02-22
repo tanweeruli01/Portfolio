@@ -252,9 +252,27 @@ nav ul li a:hover::after{
     margin-right: 15px;
     color: darkgray;
     display: inline-block;
-    transition: transform 0.5s;
+    transition: transform 0.5s, background 0.5s;
 }
 .social-icons a:hover{
     color: white;
     transform: translatey(-5px);
+}
+
+.btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 3px solid black;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.5s, background 0.5s;
+}
+
+.btn:hover{
+    background: white;
+    color: black;
+    transform: translateY(-5px);
 }
