@@ -414,12 +414,6 @@ nav .fa-solid{
     }
 }
 
-@media only screen and (max-width: 1502px){
-    .work iframe{
-        width: 700px;
-    }
-}
-
 #msg{
     color: white;
     margin-top: -25px;
